@@ -7,7 +7,7 @@ services:
       - ./.env
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: P@ssword123
+      MONGO_INITDB_ROOT_PASSWORD: p@ssword321
       MONGO_INITDB_DATABASE: rx-data
     volumes:
       - mongo:/data/db
